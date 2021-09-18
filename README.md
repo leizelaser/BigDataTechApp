@@ -5,7 +5,7 @@ Materials collected in markdown format, used as the lecture notes for the course
 
 |  Course   | Briefing |
 |  ----  | ----  |
-| [Prerequest](https://github.com/leizelaser/BigDataTechApp/blob/master/Prerequest/00Frame.md) | |
+| [Prerequest](https://github.com/leizelaser/BigDataTechApp/blob/master/Prerequest/00Frame.md) | Softwares and Settings|
 | | [VirtualBox](https://github.com/leizelaser/BigDataTechApp/blob/main/Prerequisite/01VirtualBox.md) |
 | | [Ubuntu](https://github.com/leizelaser/BigDataTechApp/blob/main/Prerequisite/02Bash.md) |
 | | [Anaconda](https://github.com/leizelaser/BigDataTechApp/blob/main/Prerequisite/03PythonC.md) |
