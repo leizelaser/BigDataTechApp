@@ -1,4 +1,4 @@
-[参考](https://missing-semester-cn.github.io/2020/course-shell/)
+[参考 计算机教育中缺失的一课](https://missing-semester-cn.github.io/2020/course-shell/)
 
 # 主题 1: The Shell
 
