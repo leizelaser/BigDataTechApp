@@ -23,11 +23,16 @@
 
 ### 在模拟系统和原有系统中传输文件：
 * 可以参考[共享剪贴板](https://blog.csdn.net/lyc_daniel/article/details/12613675?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.no_search_link&spm=1001.2101.3001.4242)，可以直接使用复制粘贴，从文字到文件。
-* 可以参考[共享文件夹](https://www.isunshare.com/blog/3-ways-to-transfer-files-between-windows-and-virtualbox/)，建立共享文件夹以便于传输。
-* 上链接同时有图形界面内的拖拽。
-
+* 可以参考[共享文件夹](https://www.jianshu.com/p/5b66e1ec09dc)，建立共享文件夹以便于传输。
+  每次在虚拟机内ubuntu下使用共享文件夹前需要挂载，在终端中执行以下命令：
+  ```
+  sudo mkdir /mnt/shared
+  sudo mount -t vboxsf sharewin /mnt/shared
+  ```
+  "sharewin"是Windows下的共享文件夹名字，每次从Ubuntu的"/mnt/shared"地址进入共享文件夹。
+  
 ## 常见安装问题：
 * 报错内容和没有权限(Authorization)相关: 多因为安装的文件目录受保护。用管理员模式运行VirtualBox即可。
 * 报错内容和BIOS/Virtualization/v-x等名称相关：多因为BIOS上禁止了虚拟机运行。需要在启动时进入BIOS菜单更改设定。（具体进入BIOS的方法，以及更改设定的目录因机型而定，需上网搜索。大多是开机时按F9到F12中的某一个键。）
-* 需检验下载安装镜像的完整性。一般下载文件目录会提供SHA1Sum等校验码，提供下载完成后的对比检验。
+* 需检验下载安装镜像的完整性。一般下载文件目录会提供SHA1Sum等校验码，提供下载完成后的对比检验。如果对比不一致说明下载有损坏/未完成，需重新下载。
 * 报错内容和缺少某些.dll文件相关：用管理员模式，简化路径（避免中文和特殊字符），尝试重新安装VirtualBox。
