@@ -27,6 +27,21 @@
   # deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
   # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
   ```
+  科大的源：
+  ```
+  deb https://mirrors.ustc.edu.cn/ubuntu/ focal main restricted universe multiverse
+  deb-src https://mirrors.ustc.edu.cn/ubuntu/ focal main restricted universe multiverse
+  deb https://mirrors.ustc.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+  deb-src https://mirrors.ustc.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+  deb https://mirrors.ustc.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+  deb-src https://mirrors.ustc.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+  deb https://mirrors.ustc.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+  deb-src https://mirrors.ustc.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+  deb https://mirrors.ustc.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
+  deb-src https://mirrors.ustc.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
+  ```
+  注意这些都是针对Ubuntu 20.04的源，如需其他版本还需搜索。
+
   我们在终端中输入
   ```console
   me@myPC:~$ sudo gedit /etc/apt/sources.list

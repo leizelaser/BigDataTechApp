@@ -32,6 +32,7 @@ Linux和Windows版可以从Anaconda安装。
 ## Ubuntu
 可以用apt-get安装g++。
 ```console
+me@myPC:~$ sudo apt-get install gcc
 me@myPC:~$ sudo apt-get install g++
 ```
 
