@@ -5,7 +5,7 @@
 
 ## Ubuntu 下的设置
 
-* Ubuntu下bash运行前会载入~/.bashrc和~/.bash_alias设置文件。这些尽量不要主动更改（除非对自己的修改很了解，例如添加指令链接等）。
+* Ubuntu下bash运行前会载入~/.bashrc和~/.bash_alias设置文件。这些文件决定了每新建一个终端时（预）运行的指令。这些尽量不要主动更改（除非对自己的修改很了解，例如添加指令链接等）。
 * Ubuntu下有自己的软件库，一般通过 apt-get 指令进行安装，如
   ```console
   me@myPC:~$ sudo apt-get install vim
