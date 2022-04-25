@@ -43,7 +43,7 @@ source /etc/profile
 
 测试配置是否成功,使用如下命令
 ```
-which  mpicc
+which mpicc
 ```
 
 后期可以使用mpicc(C程序)和mpiCC(C++程序来编译)
